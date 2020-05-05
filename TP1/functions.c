@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 #include <string.h>
-//#include "functions.h"
+#include "functions.h"
 
 static float add(float x, float y) {
     float sum = x + y;
@@ -37,7 +37,7 @@ static unsigned long factorial(float x){
             if(xint == 1 || xint == 0){
                 return 1;
             }
-            for(xint; xint>1; xint--){
+            for(; xint>1; xint--){
                 factorial = factorial * xint;
             }
             return factorial;
@@ -70,11 +70,11 @@ void showMenu(float A, float B, int *r){
         fprintf(stdout,"     e) Calcular el factorial (%.2f!) y (%.2f!)\n", A,B);
         puts("4. Informar resultados.");
         puts("5. Salir.");
-    } 
+    }
     scanf("%d", &*r);
 }
 
-void operate(float A, float B, float *sum, float *sub, float *div, 
+void operate(float A, float B, float *sum, float *sub, float *div,
 float *mult, unsigned long *factA, unsigned long *factB){
     *sum = add(A , B);
     *sub = subtract(A , B);
@@ -84,7 +84,7 @@ float *mult, unsigned long *factA, unsigned long *factB){
     *factB = factorial(B);
 }
 
-void showResults(float A, float B, float sum, float sub, float div, 
+void showResults(float A, float B, float sum, float sub, float div,
 float mult, unsigned long factA, unsigned long factB){
     printf("La suma de %.2f + %.2f = %.3f \n",A,B,sum);
     printf("La resta de %.2f - %.2f = %.3f \n",A,B,sub);
@@ -128,7 +128,7 @@ static int validateFloat(char* cadena){
             i++;
         }
         while(cadena[i]!='\0'){
-            if(cadena[i] == 46 || cadena[i]>47 && cadena[i]<58){
+            if(cadena[i] == 46 || (cadena[i]>47 && cadena[i]<58)){
                 if(cadena[i] == 46){
                     coma++;
                 }
