@@ -1,3 +1,5 @@
+Trabajo Práctico N°2 - Estructuras
+
 DATOS ALUMNO:
     Vazquez, Ezequiel Omar.
     DNI: 39000522.
