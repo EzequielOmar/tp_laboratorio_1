@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1592002309 source:/home/vazquez/proyectos/TP3/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"functions.h"
+	"Controller.h"
+
+1591556637 /home/vazquez/proyectos/TP3/LinkedList.h
+
+1592001308 /home/vazquez/proyectos/TP3/Employee.h
+	"LinkedList.h"
+
+1591659312 /home/vazquez/proyectos/TP3/parser.h
+
+1591831623 /home/vazquez/proyectos/TP3/functions.h
+
+1591834535 /home/vazquez/proyectos/TP3/Controller.h
+
+1592001330 source:/home/vazquez/proyectos/TP3/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"getters.h"
+	"functions.h"
+
+1591972027 /home/vazquez/proyectos/TP3/getters.h
+
+1591880302 source:/home/vazquez/proyectos/TP3/functions.c
+	<stdio.h>
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	"functions.h"
+
+1591971953 source:/home/vazquez/proyectos/TP3/getters.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"getters.h"
+
+1592004079 source:/home/vazquez/proyectos/TP3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"functions.h"
+
+1591972075 source:/home/vazquez/proyectos/TP3/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"functions.h"
+	"getters.h"
+
+1591880302 source:/home/vazquez/proyectos/1.Entregados/TP3/functions.c
+	<stdio.h>
+	<stdio_ext.h>
+	<string.h>
+	<stdlib.h>
+	"functions.h"
+
+1591831623 /home/vazquez/proyectos/1.Entregados/TP3/functions.h
+
+1591971953 source:/home/vazquez/proyectos/1.Entregados/TP3/getters.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"getters.h"
+
+1591972027 /home/vazquez/proyectos/1.Entregados/TP3/getters.h
+
+1592004079 source:/home/vazquez/proyectos/1.Entregados/TP3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"functions.h"
+
+1591556637 /home/vazquez/proyectos/1.Entregados/TP3/LinkedList.h
+
+1591834535 /home/vazquez/proyectos/1.Entregados/TP3/Controller.h
+
+1592011492 /home/vazquez/proyectos/1.Entregados/TP3/Employee.h
+	"LinkedList.h"
+
+1591972075 source:/home/vazquez/proyectos/1.Entregados/TP3/parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"functions.h"
+	"getters.h"
+
+1592011492 source:/home/vazquez/proyectos/1.Entregados/TP3/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"getters.h"
+	"functions.h"
+
+1592011577 source:/home/vazquez/proyectos/1.Entregados/TP3/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"functions.h"
+	"Controller.h"
+
+1591659312 /home/vazquez/proyectos/1.Entregados/TP3/parser.h
+
